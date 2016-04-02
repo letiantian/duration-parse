@@ -4,11 +4,11 @@ Convert duration time with multiple units to a number with one specified unit.
 
 ## Install
 ```
-npm install duration-parse
+npm install duration-parse --save
 ```
 
 ## Example
-```
+```js
 var DurationParse = require('duration-parse');
 
 var dp = new DurationParse({days:1});
