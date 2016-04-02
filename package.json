@@ -1,0 +1,35 @@
+{
+  "name": "duration-parse",
+  "version": "0.1.0",
+  "description": "convert duration time with multiple units to a number with one specified unit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/someus/duration-parse.git"
+  },
+  "keywords": [
+    "time",
+    "duration",
+    "convert"
+  ],
+  "author": "Letian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/someus/duration-parse/issues"
+  },
+  "homepage": "https://github.com/someus/duration-parse#readme",
+  "dependencies": {
+    "lodash": "^4.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
+  }
+}
